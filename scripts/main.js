@@ -1,4 +1,4 @@
-// import { govGetterHTML } from "./governors.js"
+
 import { facilityGetterHTML } from "./facilities.js"
 //import { facilityMineralsHTML } from "./facilities.js"
 import { purchaseButtonHTML } from "./orders.js"
