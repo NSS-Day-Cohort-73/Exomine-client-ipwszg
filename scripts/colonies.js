@@ -1,6 +1,4 @@
-//export/define colonyResourcesHTML
-//define filterColonies()
-//should include fetch request for data from api
+
 export const colonyResourcesHTML = async () => {
     const response = await fetch("http://localhost:8088/governors?_expand=colony")
     const colonies = await response.json()
