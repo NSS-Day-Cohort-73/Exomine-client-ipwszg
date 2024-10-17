@@ -8,7 +8,7 @@ export const colonyResourcesHTML = async () => {
     let resourcesHTML = ""
 
     for (const colony of colonies) {
-        if (changeEvent.target.value === colony.id) {
+        if (parseInt(changeEvent.target.value) === colony.id) {
             resourcesHTML += await filterColonies(colony.id)
         }
     } 
